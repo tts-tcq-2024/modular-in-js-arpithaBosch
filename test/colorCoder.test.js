@@ -22,7 +22,7 @@ function test() {
     pairNumber = 23;
     testPair1 = getColorFromPairNumber(pairNumber);
     console.log(`[Input] Pair Number: ${pairNumber}, [Output] Colors: ${testPair1}`);
-    console.assert(testPair1.majorColor === "RED", "Test failed: Major color should be RED");
+    console.assert(testPair1.majorColor === "RED", "Test failed: Major color should be VIOLET");
     console.assert(testPair1.minorColor === "GREEN", "Test failed: Minor color should be GREEN");
 
     // Test case 4: Convert colors to pair number for YELLOW-GREEN combination
