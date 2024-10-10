@@ -1,3 +1,4 @@
+// Import necessary functions and classes from colorCoder and colorData modules
 const { getColorFromPairNumber, getPairNumberFromColor, printColorCodingManual } = require('../src/colorCoder.js');
 const { ColorPair } = require('../src/colorData.js');
 
